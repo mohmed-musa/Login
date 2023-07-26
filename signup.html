@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>signup</title>
+
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/all.css">
+    <link href="img/favicon.ico" rel="icon" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cairo:wght@200;300&family=Dancing+Script:wght@700&family=Geologica:wght@800&family=Inter:wght@400;600;700&family=Open+Sans:ital,wght@0,400;1,400;1,500;1,600;1,700;1,800&family=Pacifico&family=Roboto:ital,wght@0,100;1,100&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <span class="d-none" id="username"></span>
+
+    <div class="container my-5 text-center">
+        <div class="group m-auto w-75 p-5">
+            <h1>Smart Login System</h1>
+
+            <input id="signupName" class="form-control my-3" placeholder="Enter your name" type="text">
+            <input id="signupEmail" class="form-control my-3" placeholder="Enter your email" type="email">
+            <div class="">
+                <div class="input-group has-validation">
+                    <input id="signupPassword" class="form-control my-1" placeholder="Enter  password" required
+                aria-describedby="bookmarkNamePrepend" type="password">
+                <div class="invalid-tooltip position-absolute">
+                    your password must have at least 8 characters a Caps letter a Small latter & number 
+                   </div>
+
+                </div>
+            </div>
+
+            <p id="exist"></p>
+
+            <button onclick=" signUp()" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+            <p class="text-white">You have an account ? <a class="text-white" href="index.html">Signin</a></p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.bundle.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+</body>
+
+</html>

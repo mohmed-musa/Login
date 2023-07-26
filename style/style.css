@@ -1,0 +1,44 @@
+ /* body {
+    cursor: none;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #01111a;
+}
+
+body {
+    background: #01111a;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#home {
+    height: 100vh;
+}
+
+h1 {
+    color: #17a2b8;
+    padding: 15px;
+}
+
+.group {
+    box-shadow: 2px 5px 50px 2px  rgba(0, 0, 0, .7);
+}
+
+
+
+
+input {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+input::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
